@@ -1,4 +1,4 @@
-FROM python:3.9.10-buster
+FROM python:3.11-rc-slim-buster
 LABEL authors="D. Severin Ryberg, JP Zivalich"
 LABEL contact="s.ryberg@accure.net, jp@pipekit.io"
 LABEL description="Deployable image for simple Dask workflow execution"
